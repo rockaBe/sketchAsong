@@ -31,3 +31,18 @@ Eat your own dog food.
         1. naming the parts
         2. change order
         3. copy & paste
+
+## Development
+
+1. Setup
+
+- use the 3 commands to run the generated app in different environments:
+
+    1. `react-native run-ios` 
+        or using commands to check the available list of devices `xcrun simctl list devices` and then pick a specific version and run `react-native run-ios --simulator="iPhone 8 Plus"`
+
+    2. `react-native run-android` (make sure to have a running Android Virtual Device (_AVD_))
+
+    3. `npm start` for the browser
+
+Or to run it on a real device, see this [walkthrough](https://facebook.github.io/react-native/docs/running-on-device).
